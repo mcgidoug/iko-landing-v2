@@ -1,0 +1,14 @@
+"use client";
+
+import React from "react";
+
+const Navbar = () => {
+  return (
+    <div>
+      <p>Contact</p>
+      <p>Iko Site V2.0</p>
+    </div>
+  );
+};
+
+export default Navbar;

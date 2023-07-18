@@ -3,6 +3,7 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
+import VideoDisplay from "./components/VideoDisplay";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
+      <VideoDisplay />
     </div>
   );
 }
